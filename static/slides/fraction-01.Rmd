@@ -1,0 +1,107 @@
+---
+title: "分数加减法"
+subtitle: "给红燕儿"
+author: "郝鸿涛"
+institute: ""
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    css: [default, zh-CN.css, extra.css]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+background-image: url(https://uploads-cdn.omnicalculator.com/images/fractions/fractions-sum.png)
+background-size: 600px
+background-position: 50% 50%
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+???
+
+图片来源：[Here](https://www.assignmentpoint.com/wp-content/uploads/2017/10/equivalent-fraction-1.jpg)
+
+---
+background-image: url(https://i0.wp.com/maths.forkids.education/wp-content/uploads/2019/06/fraction-fet.jpg?fit=400%2C258&ssl=1)
+background-size: 300px
+background-position: 50% 70%
+
+# 什么叫分数？
+
+分数是把一个整体.red[平均]分成若干份，取其中的一份或者几份。
+
+注意：分母永远不能为0。因为把一个整体分为.red[零份]是不可能的。
+---
+background-image: url(http://3.bp.blogspot.com/-yu0QMjiYwMk/Ub1mUYS9VmI/AAAAAAAACtk/t1cFolN6jr4/s1600/fractions+2.jpg)
+background-size: 300px
+background-position: 50% 70%
+
+--
+# .red[平均吗?]
+
+---
+# 分数和除法的关系
+
+### 妈妈给了你 5 块钱，让你 10 天花完。请问：
+
+1. 平均每天花几块钱？
+
+--
+2. 平均一块钱花几天?
+
+--
+3. 平均每天花这些钱的 `______`?
+
+---
+class: middle
+
+### 妈妈给了你 5 块钱，让你 7 天花完。请问：
+
+1. 平均每天花几块钱？
+2. 平均一块钱花几天?
+3. 平均每天花这些钱的 `______`?
+
+---
+# 分数的分类
+
+- 真分数：分子比分母小, 比如
+
+$$\frac{1}{2}$$
+
+- 假分数：分子等于或者大于分母，比如
+
+$$\frac{2}{2}, \frac{6}{3}, \frac{3}{2}$$
+--
+其中，假分数又可以分为：
+
+- 整数
+$$\frac{2}{2} = 1, \frac{6}{3} = 2$$
+- 带分数
+$$\frac{3}{2} = 1\frac{1}{2}---读作 “一又二分之一”$$ 
+
+---
+## 假分数与带分数的转换
+- $\frac{3}{2}$，也就是 $3 \div 2$, 商是 1，余数是1，所以 $$\frac{3}{2} = 1\frac{1}{2}$$
+- $\frac{15}{7}$，也就是 $15 \div 7$, 商是 2，余数是1，所以 $$\frac{15}{7} = 2\frac{1}{7}$$
+
+--
+你来计算：
+$$\frac{21}{9} = ?\frac{?}{?}, \frac{57}{6} = ?\frac{?}{?}, \frac{87}{11} = ?\frac{?}{?}$$
+
+---
+## 假分数与带分数的转换
+
+$$1\frac{1}{2} = \frac{1\times 2 + 1}{2} = \frac{3}{2}$$
+$$2\frac{5}{7} = \frac{2\times 7 + 5}{7} = \frac{19}{7}$$
+$$4\frac{3}{11} = \frac{4\times 11 + 3}{11} = \frac{47}{11}$$
+--
+你来算：
+$$5\frac{6}{7} = \frac{?}{?}$$
+$$2\frac{8}{21} = \frac{?}{?}$$
+
+$$9\frac{3}{4} = \frac{?}{?}$$
