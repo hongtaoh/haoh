@@ -7,3 +7,16 @@ title: Home
 - 分数的基本性质，[视频讲解](https://www.bilibili.com/video/BV1St411274b)，幻灯片
 
 - 分数乘法与除法：[视频讲解](https://www.bilibili.com/video/BV1ot41127M2/)，幻灯片
+
+
+<!-- ---
+[十字交乘法](https://www.bilibili.com/video/BV1ZW411x78T/) -->
+
+---
+## 数学微课帮视频
+
+- [初一数学](https://www.bilibili.com/video/BV114411Q7Y4)
+
+- [初二数学](https://www.bilibili.com/video/BV1DJ411w7Th)
+
+- [初三数学](https://www.bilibili.com/video/BV17E41167hm)

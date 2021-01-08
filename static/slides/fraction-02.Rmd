@@ -1,0 +1,130 @@
+---
+title: "分数乘法与除法"
+subtitle: "给红燕儿"
+author: "郝鸿涛"
+institute: ""
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    css: [default, zh-CN.css, extra.css]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+class: inverse, middle, center
+
+# 分数乘法
+
+---
+# 分数乘以整数
+
+$$\frac{2}{5} \times 4$$
+$$ = \frac{2}{5} + \frac{2}{5} + \frac{2}{5} + \frac{2}{5}$$
+
+$$= \frac{2 \times 4}{5} = \frac{8}{5} = ? \frac{?}{?}$$
+
+所以：
+
+$$\frac{a}{b} \times c = \frac{? \times ?}{b}$$
+
+练习：
+
+$$\frac{4}{7} \times 5 = ?$$
+---
+# 能约分，要先约分再乘
+
+$$\frac{3}{10} \times 5 = ?$$
+
+---
+# 带分数先换成假分数再乘
+
+$$2\frac{4}{7} \times 14 = ?$$
+
+---
+background-image: url(crop/01.png)
+background-size: 500px
+background-position: 50% 70%
+
+# 分数乘以分数
+
+$$\frac{2}{3} \times \frac{4}{5} = \frac{2 \times 4}{3\times 5} = \frac{8}{15}$$
+
+$$\frac{a}{b}\times \frac{c}{d} = \frac{a\times c}{b \times d}$$
+
+
+---
+background-image: url(crop/02.png)
+background-size: 500px
+background-position: 50% 70%
+
+# 分数乘以分数：能约分的一定要先约分
+
+$$\frac{7}{10} \times \frac{20}{21} = ?$$
+
+---
+# 带分数先转化成假分数再计算
+
+$$5\frac{11}{21} \times \frac{7}{8} = ?$$
+---
+class: inverse, middle, center
+
+# 分数除法
+
+---
+## 倒数：
+
+$$\frac{2}{3} 与 \frac{3}{2} 互为倒数，因为 \frac{2}{3} \times \frac{3}{2} = 1$$
+
+
+$$\frac{5}{7} 与 \frac{7}{5} 互为倒数，因为 \frac{5}{7} \times \frac{7}{5} = 1$$
+所以，$$\frac{a}{b} 的倒数是 \frac{?}{?}$$
+
+---
+## 除以一个分数，等于乘以它的倒数。
+
+为什么？
+
+$$ 3 \div \frac{1}{2}$$ 代表的意思是，3 里面有几个二分之一。 
+
+有几个？6个。怎么得来的？ 
+
+$$ 3 \div \frac{1}{2} = 3 \times 2 = 6$$
+
+同理，$$\frac{2}{3} 里面有几个 \frac{1}{2}?$$
+
+$$\frac{2}{3} \div \frac{1}{2} = \frac{2}{3} \times 2 = \frac{4}{3}$$
+
+---
+## 分数除以整数呢？
+
+$$\frac{2}{3} \div 4 = ?$$
+
+---
+background-image: url(crop/03.png)
+background-size: 500px
+background-position: 50% 60%
+
+## 自己算
+
+试题来自：https://www.bilibili.com/video/av86824829/
+
+---
+background-image: url(crop/04.png)
+background-size: 500px
+background-position: 50% 60%
+
+## 自己算
+
+试题来自：https://www.bilibili.com/video/av86824829/
+
+---
+background-image: url(crop/05.png)
+background-size: 500px
+background-position: 50% 60%
+
+## 自己算
+
+试题来自：https://www.bilibili.com/video/av86824829/
+
