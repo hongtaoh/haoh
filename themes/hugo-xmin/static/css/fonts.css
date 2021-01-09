@@ -1,6 +1,5 @@
 body {
-  font-family: Optima, Candara, Calibri, Arial, 'Noto Serif SC', 'Noto Serif TC', 'Source Han Serif SC', 
-	'Source Han Serif CN', 'Source Han Serif', 'Source-han-serif-sc', 'STKaiti', 'Kai', 'Kaiti SC' sans-serif;
+  font-family: Optima, 'Noto Serif SC', SimSun, 'STKaiti', 'Kai', 'Kaiti SC' sans-serif;
   font-size: 120%;
 }
 code {
