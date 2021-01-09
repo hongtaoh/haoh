@@ -13,12 +13,16 @@ permalinks:
 
 menu:
   main:
-    - name: Home
+    - name: 数学 与 练字
       url: ""
       weight: 1
-    - name: Post
-      url: "post/"
+    - name: 英语
+      url: "english/"
       weight: 2
+
+    # - name: 练字
+    #   rul: "cali/"
+    #   weight: 3
 
 params:
   description: "Visualizing 120 years of Summer Olympics"
