@@ -16,6 +16,8 @@ title: Home
 
 - 分数加减运算: [视频讲解](https://www.bilibili.com/video/BV1t4411h7Yg)
 
+- 分数加减运算：[幻灯片](/slides/fraction-03.html)
+
 <!-- ---
 [十字交乘法](https://www.bilibili.com/video/BV1ZW411x78T/) -->
 

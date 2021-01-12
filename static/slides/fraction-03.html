@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>分数加法与减法</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="郝鸿涛" />
+    <meta name="date" content="2021-01-12" />
+    <script src="libs/header-attrs-2.5.3/header-attrs.js"></script>
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+    <script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+    <link rel="stylesheet" href="zh-CN.css" type="text/css" />
+    <link rel="stylesheet" href="extra.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# 分数加法与减法
+## 给红燕儿
+### 郝鸿涛
+### 2021-01-12
+
+---
+
+class: inverse, middle, center
+
+# 最大公约数和最小公倍数
+
+---
+# 最大公约数
+
+为什么需要用到最大公约数？
+
+约分：
+
+`$$\frac{16}{52}, \frac{14}{98}, \frac{18}{66}$$`
+
+--
+- 16 和 52 的最大公约数是 4
+
+- 14 和 98 的最大公约数是 14
+
+- 18 和 66 的最大公约数是 6
+
+分子分母同时除以最大公约数，结果就是约分后的结果。
+
+---
+# 为什么是「最大」公约数？
+
+因为我们想要最简化的结果。
+
+比如，16 和 52 的公约数有 2 个： 2 和 4。除以 2 得到的结果是$$\frac{8}{26}$$
+
+这不是最简单的，因为还可以再除以2。所以，只有除以 4， 也就是「最大」的公约数，才能约分到最简。
+
+--
+
+同样地，14 和 98 的公约数有 3 个：2， 7 和 14。除以 2 和 除以 7 都不能得到最简结果，所以要除以 14，也就是「最大」的公约数。
+
+再比如，18 和 66 的公约数有 3 个：2， 3， 6。不管是除以 2，还是除以 3，都不能得到最简单的结果，所以要上下同时除以 6，也就是所有公约数当中「最大」的那个。
+
+---
+# 最小公倍数
+
+什么时候需要用到最小公倍数？
+
+通分的时候。比如，请计算：
+
+
+`$$\frac{3}{16} + \frac{5}{52}, \frac{5}{14} + \frac{7}{98}, \frac{3}{18} + \frac{7}{66}$$`
+
+--
+16 和 52 的最小公倍数是 208， 14 和 98 的最小公倍数 98， 18 和 66 的最小公倍数是 198.
+
+
+---
+# 为什么是「最小」公倍数
+
+- 16 和 52 的公倍数，不只有 208， 还有 `\(208 \times 2\)`, `\(208 \times 3\)`, `\(208 \times 4\)` 
+
+--
+
+- 14 和 98 的公倍数，不只有 98， 还有 `\(98 \times 2\)`, `\(98 \times 3\)`, `\(98 \times 4\)` 
+
+--
+
+- 18 和 54 的公倍数，不只有 198， 还有 `\(198 \times 2\)`, `\(198 \times 3\)`, `\(198 \times 4\)` 
+
+--
+
+但是，如果我们可以直接用：
+
+`$$\frac{3}{16} + \frac{5}{52} = \frac{13}{208} + \frac{4}{208} = \frac{17}{208}$$`
+
+那就没有必要用
+
+`$$\frac{3}{16} + \frac{5}{52} = \frac{13\times 2}{208\times 2} + \frac{4 \times 2}{208 \times 2} = \frac{17 \times 2}{208 \times 2} = \frac{17}{208}$$`
+---
+# 如何算出最大公约数和最小公倍数
+
+.pull-left[![](make/01.png)]
+
+.pull-right[![](make/04.png)
+
+最大公约数 `\(2 \times 2 = 4\)`
+
+最小公倍数 `\(2 \times 2 \times 4 \times 13 = 104\)`]
+
+
+---
+# 练习
+
+用同样的方式，画出 14 和 98， 以及 18 和 54 的最大公约数、最小公倍数
+
+.pull-left[![](make/05.png)]
+
+.pull-right[![](make/06.png)]
+
+---
+# 分数加、减分数
+
+分母替换为最小公倍数，然后加减
+
+`$$\frac{3}{18} + \frac{5}{54} = \frac{3 \times 3}{18} + \frac{5}{54} = \frac{9 + 5}{54} = \frac{14}{54} = \frac{7}{27}$$`
+你来算：
+
+`$$\frac{5}{14} - \frac{3}{98} = ?$$`
+`$$\frac{5}{18} + \frac{53}{66} = ?$$`
+---
+# 分数加减整数
+
+`$$3 + \frac{3}{2}$$`
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
